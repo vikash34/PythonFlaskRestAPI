@@ -7,3 +7,5 @@
 
  STEP 3 : Run app using -  python app.py
 
+ step 4 :  go to browser and run :- http://localhost:5050/
+

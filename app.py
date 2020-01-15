@@ -21,7 +21,7 @@ books = [{
 #index page content 
 @app.route('/')
 def hello():
-    return "hello"
+    return "Welcome, Here is the link of every route \n\n\n  http://localhost:5050/books - show all books\n  http://localhost:5050/books/bookno - show single book data\n  http://localhost:5050/add_book - add new book (method : POST)\n  http://localhost:5050/update_book/bookNo - update a book  (method : PUT)\n  http://localhost:5050/delete_book/bookNo - update book  (method : DELETE)\n"
 
 #get api for show books
 @app.route('/books')
